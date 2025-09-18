@@ -1,4 +1,3 @@
-variable "vpc_id" { type = string }
-variable "public_subnet" { type = string }
-variable "sg_id" { type = string }
-variable "target_id" { type = string }
+version https://git-lfs.github.com/spec/v1
+oid sha256:136e58fbc7174d0940110a94a93d331dfaea95f4da5033b33710fe4e6da5879d
+size 157

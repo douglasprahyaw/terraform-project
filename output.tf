@@ -1,15 +1,3 @@
-output "public_instance_ip" {
-  value = module.compute.public_instance_ip
-}
-
-output "private_instance_id" {
-  value = module.compute.private_instance_id
-}
-
-output "load_balancer_dns" {
-  value = module.lb.lb_dns
-}
-
-output "s3_bucket_name" {
-  value = module.storage.bucket_name
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:fd2a2c327332cac5f856171e14c2a64f9ee526832a8ae6e32b364f853fe852b0
+size 295

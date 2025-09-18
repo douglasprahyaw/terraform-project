@@ -1,15 +1,3 @@
-output "public_instance_id" {
-  value = aws_instance.public_vm.id
-}
-
-output "public_instance_ip" {
-  value = aws_instance.public_vm.public_ip
-}
-
-output "private_instance_id" {
-  value = aws_instance.private_vm.id
-}
-
-output "public_sg_id" {
-  value = aws_security_group.public_sg.id
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1e46ea8bf33519d1d1b98057778e1b83f4f83874c0eb3bcf088f5d3d11f633a2
+size 299
